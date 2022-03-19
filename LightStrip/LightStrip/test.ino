@@ -12,6 +12,8 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SH110X.h>
 
+#include "functions.h"
+
 //Sliders
 #define CCTpin A2			//cannot use A0, A1, or A2 with WiFi running
 #define brightnessPin A3

@@ -49,6 +49,7 @@ run modes:
 	simulate daylight
 	alarm (accelerated sunrise at preset time, then simulate daylight)
 	constant
+	
 
 eventually have web app
 	leave gpio pins 21 (RX2) and 22 (TX2) free for this
@@ -87,7 +88,6 @@ if simulating
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <WiFi.h>
 //WiFi libraries
 #include <WiFi.h>
 #include <ESPAsyncWebServer.h>
